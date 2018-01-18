@@ -4,8 +4,8 @@ an open extendable cloud platform - used as a CMS, an E-Commerce Site, an Online
 # What is Mirage
 The easiest way to think about Mirage is "The static-site generator in the cloud." Mirage does not aim to be yet another static site generator from developers, but instead a static site generator for Wordpress, Squarespace, Blogger, and users. 
 
-## THE Goal
-The Goal of mirage is that marketers and other writers can benefit from the advancement of new technology allowing simplistic online publishing, but where the writter does not have to fire up the terminal, understand that YAML is not a an animal, or be an expert in markdown. Write from anywhere.
+## Project Goals
+The Goal of mirage is create a world where writers (marketers, etc) benefit from the advancement of new technology allowing simplistic online publishing, but where the writter does not have to fire up the terminal, understand that YAML is not a an animal, or be an expert in markdown. Write from anywhere.
 
 - Support multiple authors (not developers) writing from varried places
 - Edit the Site's config from the Browser
@@ -17,6 +17,9 @@ The Goal of mirage is that marketers and other writers can benefit from the adva
   - Themes should be syntax validated and performance graded before being made available
   - Themes should strive towards being a Progressive Web App
   - BoltOns shold not slow down the Reader's Happy Path for the site.
+- Keep an attack vector minimized via the architecture not via `10x Infosec Developers` making every plugin (or in this case BoltOn) 
+- Encapsulated in a Software definition
+- Multi-cloud deployable
 
 ## Inspiration:
 
@@ -29,6 +32,8 @@ Mirage draws inspiration from the proliferation of static site generators, notab
 Mirage also draws inspiration from other players helping developers delploy these sites like:
 - [Netlify](https://www.netlify.com/)
 - [ZEIT](https://zeit.co/)
+- [CosmicJS](https://cosmicjs.com/)
+- [Contentful](https://www.contentful.com/)
 
 All of the products represented by the sites above, are in some part, attempting to create the same world that Mirage wishes for everyone. A seemless transition of human thoguht to written page - without the mental baggage of worrying about what could go wrong.
 
