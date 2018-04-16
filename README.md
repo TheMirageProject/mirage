@@ -1,19 +1,20 @@
-# mirage
-an open extendable cloud platform - used as a CMS, an E-Commerce Site, an Online Publication, a Wordpress replacement, etc
+# mirageOS
+is an open extendable cloud platform - often used as a CMS, or an E-Commerce Site, or for an online Publication, etc, sometimes used as a `wp-Eject` button...
 
 # What is Mirage
-The easiest way to think about Mirage is "The static-site generator in the cloud." Mirage does not aim to be yet another static site generator from developers, but instead a static site generator for Wordpress, Squarespace, Blogger, and users. 
+Think about Mirage like a CMS in the cloud that comes with an Add-On store - like apps for your phone. It lets's developers create Bolts that can be installed to your site.
 
 ## Project Goals
-The Goal of mirage is create a world where writers (marketers, etc) benefit from the advancement of new technology allowing simplistic online publishing, but where the writter does not have to fire up the terminal, understand that YAML is not a an animal, or be an expert in markdown. Write from anywhere.
+Let's create a world where writers and creators (marketers, etc) benefit from the advancement of new technology allowing simple online publishing, to be augmented with the power of modern cloud platforms. Creators should not need to fire up their terminal, understand that YAML is not a an animal, or be a markdown expert. They, and their team, can write from anywhere, and host their own content in a format that is incredibly fast and enjoyable for readers.
 
+### Goals
 - Support multiple authors (not developers) writing from varried places
-- Edit the Site's config from the Browser
-- Edit the Theme & its config
-- Allow for simple site and theme extensiblity via `BoltOns`
-- Install Themes via the browser
-- Install BoltOns via the browser
-- Should make it hard to create a slow web-page
+- Allow for simple site and theme extensiblity via `Bolts`
+- Web-based editing of the Theme & config
+- Web-based editing the site config
+- Web-based purchase/install of bolts 
+- Web-based purchase/install of Themes 
+- With Mirage it is a challenge to create a slow web-page.
   - Themes should be syntax validated and performance graded before being made available
   - Themes should strive towards being a Progressive Web App
   - BoltOns shold not slow down the Reader's Happy Path for the site.
